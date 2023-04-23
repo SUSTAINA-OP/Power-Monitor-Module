@@ -1,0 +1,8 @@
+Qty Value     Device     Package   Parts                                  Description                
+1   0.002     R-US_R2512 R2512     R1                                     RESISTOR, American symbol  
+2   0.1u      C-USC0603  C0603     C1, C2                                 CAPACITOR, American symbol 
+2   10        R-US_R0603 R0603     R2, R3                                 RESISTOR, American symbol  
+1   1X4P      1X4P       1X4P      P3                                                                
+2   2X5P      2X5P       2X5P      P1, P2                                                            
+1   INA231    INA231     INA231    IC1                                                               
+8   SHORTLAND SHORTLAND  SHORTLAND JP1, JP2, JP3, JP4, JP5, JP6, JP7, JP8                            
