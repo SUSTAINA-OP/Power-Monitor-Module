@@ -90,7 +90,7 @@
         <p>
             The following documents are available for this product.
             <ul>
-                <li><a href=""></a></li>
+                <li><a href="/pcb_order/README.md">\pcb_order\README.md</a>: Information for ordering the PCB or PCBA</li>
             </ul>
         </p>
     <h2>References</h2>
