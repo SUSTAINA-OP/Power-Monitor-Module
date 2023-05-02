@@ -93,6 +93,16 @@
                 <li><a href="/pcb_order/README.md">\pcb_order\README.md</a>: Information for ordering the PCB or PCBA</li>
             </ul>
         </p>
+    <h3>Note</h3>
+        <p>
+            The following issues have been raised with this product to date.
+            <ul>
+                <li>
+		  A1 and GND cannot be connected in slave address selection by short land<br>
+		  - > Use other address values.
+		</li>
+            </ul>
+        </p>
     <h2>References</h2>
         <p>
             This product was designed with reference to the following products.
