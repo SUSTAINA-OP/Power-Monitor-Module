@@ -54,7 +54,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="yes" active="yes"/>
@@ -108,15 +108,42 @@
 <layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="130" name="SMDSTROOK" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="133" name="bottom_silk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="134" name="silk_top" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="135" name="silk_bottom" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="136" name="silktop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="137" name="silkbottom" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="138" name="NEw" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="139" name="mtKeepout" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="140" name="mbKeepout" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="141" name="mtRestrict" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="142" name="mbRestrict" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="143" name="mvRestrict" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="145" name="DrillLegend_01-16" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="146" name="DrillLegend_01-20" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="147" name="mMeasures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="148" name="mDocument" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="149" name="mReference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="156" name="DXF0409-TOP" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="157" name="DXF0409-BOTTOM" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="166" name="AntennaArea" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="168" name="4mmHeightArea" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="191" name="mNets" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="192" name="mBusses" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="193" name="mPins" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="194" name="mSymbols" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="195" name="mNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="196" name="mValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="200" name="200bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="201" name="201bmp" color="7" fill="1" visible="yes" active="yes"/>
@@ -161,75 +188,63 @@
 </layers>
 <library>
 <packages>
-<package name="INA231">
-<wire x1="-0.5065" y1="0.8375" x2="-0.709" y2="0.635" width="0.0762" layer="21"/>
-<wire x1="-0.709" y1="-0.8375" x2="0.709" y2="-0.8375" width="0.0762" layer="21"/>
-<wire x1="0.709" y1="-0.8375" x2="0.709" y2="0.8375" width="0.0762" layer="21"/>
-<wire x1="0.4064" y1="0.6096" x2="2.6162" y2="0.6096" width="0.1524" layer="47"/>
-<wire x1="0.4064" y1="0.2032" x2="2.6162" y2="0.2032" width="0.1524" layer="47"/>
-<wire x1="-0.7112" y1="0" x2="-0.7112" y2="2.7432" width="0.1524" layer="47"/>
-<wire x1="0.7112" y1="0" x2="0.7112" y2="2.7432" width="0.1524" layer="47"/>
-<wire x1="0" y1="0.8382" x2="4.5212" y2="0.8382" width="0.1524" layer="47"/>
-<wire x1="0" y1="-0.8382" x2="4.5212" y2="-0.8382" width="0.1524" layer="47"/>
-<wire x1="-0.709" y1="-0.8375" x2="-0.709" y2="0.635" width="0.0762" layer="21"/>
-<wire x1="-0.5065" y1="0.8375" x2="0.709" y2="0.8375" width="0.0762" layer="21"/>
-<smd name="A1" x="-0.4" y="0.6" dx="0.3" dy="0.3" layer="1" roundness="100"/>
-<smd name="A2" x="0" y="0.6" dx="0.3" dy="0.3" layer="1" roundness="100"/>
-<smd name="A3" x="0.4" y="0.6" dx="0.3" dy="0.3" layer="1" roundness="100"/>
-<smd name="B1" x="-0.4" y="0.2" dx="0.3" dy="0.3" layer="1" roundness="100"/>
-<smd name="B2" x="0" y="0.2" dx="0.3" dy="0.3" layer="1" roundness="100"/>
-<smd name="B3" x="0.4" y="0.2" dx="0.3" dy="0.3" layer="1" roundness="100"/>
-<smd name="C1" x="-0.4" y="-0.2" dx="0.3" dy="0.3" layer="1" roundness="100"/>
-<smd name="C2" x="0" y="-0.2" dx="0.3" dy="0.3" layer="1" roundness="100"/>
-<smd name="C3" x="0.4" y="-0.2" dx="0.3" dy="0.3" layer="1" roundness="100"/>
-<smd name="D1" x="-0.4" y="-0.6" dx="0.3" dy="0.3" layer="1" roundness="100"/>
-<smd name="D2" x="0" y="-0.6" dx="0.3" dy="0.3" layer="1" roundness="100"/>
-<smd name="D3" x="0.4" y="-0.6" dx="0.3" dy="0.3" layer="1" roundness="100"/>
-<text x="0" y="1.5875" size="1" layer="25" align="center">&gt;NAME</text>
+<package name="MSOP-10">
+<circle x="-3.4" y="1" radius="0.05" width="0.1" layer="21"/>
+<wire x1="-1.15" y1="1.5" x2="1.15" y2="1.5" width="0.1524" layer="21"/>
+<wire x1="1.15" y1="1.5" x2="1.15" y2="-1.5" width="0.1524" layer="21"/>
+<wire x1="1.15" y1="-1.5" x2="-1.15" y2="-1.5" width="0.1524" layer="21"/>
+<wire x1="-1.15" y1="-1.5" x2="-1.15" y2="1.5" width="0.1524" layer="21"/>
+<smd name="1" x="-2.2" y="1" dx="1.4" dy="0.3" layer="1"/>
+<smd name="2" x="-2.2" y="0.5" dx="1.4" dy="0.3" layer="1"/>
+<smd name="3" x="-2.2" y="0" dx="1.4" dy="0.3" layer="1"/>
+<smd name="4" x="-2.2" y="-0.5" dx="1.4" dy="0.3" layer="1"/>
+<smd name="5" x="-2.2" y="-1" dx="1.4" dy="0.3" layer="1"/>
+<smd name="6" x="2.2" y="-1" dx="1.4" dy="0.3" layer="1"/>
+<smd name="7" x="2.2" y="-0.5" dx="1.4" dy="0.3" layer="1"/>
+<smd name="8" x="2.2" y="0" dx="1.4" dy="0.3" layer="1"/>
+<smd name="9" x="2.2" y="0.5" dx="1.4" dy="0.3" layer="1"/>
+<smd name="10" x="2.2" y="1" dx="1.4" dy="0.3" layer="1"/>
+<text x="0" y="2.54" size="1" layer="25" align="center">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
-<symbol name="INA231">
-<wire x1="-10.16" y1="17.78" x2="-10.16" y2="-15.24" width="0.1524" layer="94"/>
-<wire x1="-10.16" y1="-15.24" x2="10.16" y2="-15.24" width="0.1524" layer="94"/>
-<wire x1="10.16" y1="-15.24" x2="10.16" y2="17.78" width="0.1524" layer="94"/>
-<wire x1="10.16" y1="17.78" x2="-10.16" y2="17.78" width="0.1524" layer="94"/>
-<pin name="A0" x="12.7" y="-2.54" length="short" direction="in" rot="R180"/>
-<pin name="A1" x="12.7" y="-5.08" length="short" direction="in" rot="R180"/>
-<pin name="ALERT" x="12.7" y="2.54" length="short" direction="out" rot="R180"/>
-<pin name="BUS" x="-12.7" y="15.24" length="short" direction="in"/>
-<pin name="GND" x="-12.7" y="-12.7" length="short" direction="pwr"/>
-<pin name="IN+" x="-12.7" y="7.62" length="short" direction="in"/>
-<pin name="IN-" x="-12.7" y="-5.08" length="short" direction="in"/>
-<pin name="NC1" x="12.7" y="-10.16" length="short" direction="nc" rot="R180"/>
-<pin name="NC2" x="12.7" y="-12.7" length="short" direction="nc" rot="R180"/>
-<pin name="SCL" x="12.7" y="7.62" length="short" direction="in" rot="R180"/>
-<pin name="SDA" x="12.7" y="10.16" length="short" rot="R180"/>
-<pin name="VS" x="12.7" y="15.24" length="short" direction="pwr" rot="R180"/>
-<text x="0" y="22.86" size="1.778" layer="95" ratio="6" rot="SR0" align="center">&gt;NAME</text>
-<text x="0" y="20.32" size="1.778" layer="97" ratio="6" rot="SR0" align="center">INA231AIYFFT</text>
+<symbol name="INA226">
+<wire x1="0" y1="0" x2="20.32" y2="0" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-15.24" x2="20.32" y2="0" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-15.24" x2="0" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-15.24" width="0.254" layer="94"/>
+<pin name="A0" x="-2.54" y="-5.08" length="short"/>
+<pin name="A1" x="-2.54" y="-2.54" length="short"/>
+<pin name="ALERT" x="-2.54" y="-7.62" length="short"/>
+<pin name="GND" x="22.86" y="-10.16" length="short" rot="R180"/>
+<pin name="IN+" x="22.86" y="-2.54" length="short" rot="R180"/>
+<pin name="IN-" x="22.86" y="-5.08" length="short" rot="R180"/>
+<pin name="SCL" x="-2.54" y="-12.7" length="short"/>
+<pin name="SDA" x="-2.54" y="-10.16" length="short"/>
+<pin name="VBUS" x="22.86" y="-7.62" length="short" rot="R180"/>
+<pin name="VS" x="22.86" y="-12.7" length="short" rot="R180"/>
+<text x="10.16" y="5.08" size="1.778" layer="95" align="center">&gt;NAME</text>
+<text x="10.16" y="2.54" size="1.778" layer="97" align="center">INA226</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="INA231" prefix="IC">
+<deviceset name="INA226" prefix="IC">
 <gates>
-<gate name="G$1" symbol="INA231" x="0" y="0"/>
+<gate name="G$1" symbol="INA226" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="INA231">
+<device name="" package="MSOP-10">
 <connects>
-<connect gate="G$1" pin="A0" pad="B3"/>
-<connect gate="G$1" pin="A1" pad="C3"/>
-<connect gate="G$1" pin="ALERT" pad="A3"/>
-<connect gate="G$1" pin="BUS" pad="D1"/>
-<connect gate="G$1" pin="GND" pad="C1"/>
-<connect gate="G$1" pin="IN+" pad="D3"/>
-<connect gate="G$1" pin="IN-" pad="D2"/>
-<connect gate="G$1" pin="NC1" pad="B2"/>
-<connect gate="G$1" pin="NC2" pad="C2"/>
-<connect gate="G$1" pin="SCL" pad="A1"/>
-<connect gate="G$1" pin="SDA" pad="A2"/>
-<connect gate="G$1" pin="VS" pad="B1"/>
+<connect gate="G$1" pin="A0" pad="2"/>
+<connect gate="G$1" pin="A1" pad="1"/>
+<connect gate="G$1" pin="ALERT" pad="3"/>
+<connect gate="G$1" pin="GND" pad="7"/>
+<connect gate="G$1" pin="IN+" pad="10"/>
+<connect gate="G$1" pin="IN-" pad="9"/>
+<connect gate="G$1" pin="SCL" pad="5"/>
+<connect gate="G$1" pin="SDA" pad="4"/>
+<connect gate="G$1" pin="VBUS" pad="8"/>
+<connect gate="G$1" pin="VS" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>

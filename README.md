@@ -10,9 +10,9 @@
     <p><strong>This product is currently under development!</strong></p>
 	<h1>Power Monitor Module</h1>
         <p>
-            This product is a high-side sensing current/voltage monitor module. The sensing voltage is 0~28V and the current is ±20A. The operating voltage is 2.7~5.5V, and these values are available via I<sup>2</sup>C I/F. The slave address is selectable on the board, and up to 16 modules in total are connected.
+            This product is a high-side sensing current/voltage monitor module. The sensing voltage is 0~36V and the current is ±20A. The operating voltage is 2.7~5.5V, and these values are available via I<sup>2</sup>C I/F. The slave address is selectable on the board, and up to 16 modules in total are connected.
         </p>
-	<h2>Features Rev. 1</h2>
+	<h2>Features Rev. 2</h2>
         <p>
         </p>
     <h3>PCB</h3>
@@ -44,18 +44,17 @@
             </ul>
             <img src="/images/pinout.png" width="320px">
         </p>
-    <h3><a href="https://www.ti.com/product/en-us/INA231">Texas Instruments INA231</a></h3>
+    <h3><a href="https://www.ti.com/product/en-us/INA226">Texas Instruments INA226</a></h3>
         <p>
             <ul>
-                <li>Bus voltage sensing from 0 V to 28 V</li>
+                <li>Bus voltage sensing from 0 V to 36 V</li>
                 <li>Power-supply operation: 2.7 V to 5.5 V</li>
                 <li>High accuracy:
                     <ul>
-                        <li>Gain error: 0.5% (maximum)</li>
-                        <li>Offset: 50 μV (maximum)</li>
+                        <li>Gain error: 0.1% (maximum)</li>
+                        <li>Offset: 10 μV (maximum)</li>
                     </ul>
                 </li>
-                <li>Power-supply operation: 2.7 V to 5.5 V</li>
             </ul>
             Note: The I<sup>2</sup>C address of this product is selectable from 16 addresses by the short lands on the board.
         <p>
@@ -93,28 +92,18 @@
                 <li><a href="/pcb_order/README.md">\pcb_order\README.md</a>: Information for ordering the PCB or PCBA</li>
             </ul>
         </p>
-    <h3>Note</h3>
-        <p>
-            The following issues have been raised with this product to date.
-            <ul>
-                <li>
-		  A1 and GND cannot be connected in slave address selection by short land<br>
-		  - > Use other address values.
-		</li>
-            </ul>
-        </p>
     <h2>References</h2>
         <p>
             This product was designed with reference to the following products.
             <ul>
-                <li><a href="https://www.ti.com/product/INA231EVM/part-details/INA231EVM">Texas Instruments INA231EVM: INA231 evaluation module</a></li>
-                <li><a href="http://strawberry-linux.com/catalog/items?code=12231">Strawberry Linux INA231: I2C digital current, voltage, and power meter module (up to 20A)</a></li>
+                <li><a href="https://www.ti.com/tool/ja-jp/INA226EVM">Texas Instruments INA226EVM: INA226 evaluation module</a></li>
+                <li><a href="https://strawberry-linux.com/catalog/items?code=12031">Strawberry Linux INA226: I2C digital current, voltage, and power meter module (up to 20A)</a></li>
             </ul>
         </p>
     <h2>Contact</h2>
         <p>
-            If you have any questions, please contact the designer of this product, Masato Kubodera, by <a href="mailto:masatokubotera06@yahoo.co.jp">e-mail</a>.<br>
-            E-mail: <a href="mailto:masatokubotera06@yahoo.co.jp">masato.kubotera@sustaina-op.com </a>
+            If you have any questions, please contact the designer of this product, Masato Kubodera, by <a href="mailto:masato.kubotera@sustaina-op.com">e-mail</a>.<br>
+            E-mail: <a href="mailto:masato.kubotera@sustaina-op.com">masato.kubotera@sustaina-op.com</a>
         </p>
     <h2>License Information</h2>
         <p>

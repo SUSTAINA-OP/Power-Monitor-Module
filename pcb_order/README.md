@@ -93,20 +93,20 @@
                     <th>Part Detail</th>
                 </tr>
                 <tr>
-                    <td><img src="https://assets.lcsc.com/images/lcsc/900x900/20180914_Murata-Electronics-GCJ188R71H104KA12D_C161115_front.jpg" width="100px"></td>
+                    <td><img src="https://assets.lcsc.com/images/lcsc/900x900/20230203_YAGEO-CC0402JRX7R7BB104_C541464_front.jpg" width="100px"></td>
                     <td>C1,C2</td>
-                    <td>GCJ188R71H104KA12D</td>
-                    <td><a href="https://jlcpcb.com/partdetail/172496-GCJ188R71H104KA12D/C161115">C161115</a></td>
+                    <td>CC0402JRX7R7BB104</td>
+                    <td><a href="https://jlcpcb.com/partdetail/Yageo-CC0402JRX7R7BB104/C541464">C541464</a></td>
                     <td>Murata Electronics</td>
-                    <td>Multilayer Ceramic Capacitor SMD 100nF 50V ±10% X7R 0603</td>
+                    <td>Multilayer Ceramic Capacitor SMD 100nF 16V ±5% X7R 0402</td>
                 </tr>
                 <tr>
-                    <td><img src="https://assets.lcsc.com/images/lcsc/900x900/20230109_Texas-Instruments-INA231AIYFFR_C414624_front.jpg" width="100px"></td>
+                    <td><img src="https://assets.lcsc.com/images/lcsc/900x900/20221230_Texas-Instruments-INA226AIDGSR_C49851_front.jpg" width="100px"></td>
                     <td>IC1</td>
-                    <td>INA231AIYFFR</td>
-                    <td><a href="https://jlcpcb.com/partdetail/TexasInstruments-INA231AIYFFR/C414624">C414624</a></td>
+                    <td>INA226AIDGSR</td>
+                    <td><a href="https://jlcpcb.com/partdetail/TexasInstruments-INA226AIDGSR/C49851">C49851</a></td>
                     <td>Texas Instruments</td>
-                    <td>Output Current/Voltage/Power Monitor 28V 16-bit BGA-12</td>
+                    <td>Output Current/Voltage/Power Monitor 36V 16-bit MSOP-10</td>
                 </tr>
                 <tr>
                     <td><img src="https://assets.lcsc.com/images/lcsc/900x900/20230128_prosemi-LMP25NF3P0R002S_C2838967_back.jpg" width="100px"></td>
@@ -117,12 +117,12 @@
                     <td>Current Sensing Resistors SMD 2mΩ 3W ±1% 2512</td>
                 </tr>
                 <tr>
-                    <td><img src="https://assets.lcsc.com/images/lcsc/900x900/20180914_YAGEO-RC0603FR-0710RL_C109318_front_10.jpg" width="100px"></td>
+                    <td><img src="https://assets.lcsc.com/images/lcsc/900x900/20180914_YAGEO-RC0402FR-074R7L_C137962_front.jpg" width="100px"></td>
                     <td>R2,R3</td>
-                    <td>RC0603FR-0710RL</td>
-                    <td><a href="https://jlcpcb.com/partdetail/Yageo-RC0603FR0710RL/C109318">C109318</a></td>
+                    <td>RC0402FR-074R7L</td>
+                    <td><a href="https://jlcpcb.com/partdetail/Yageo-RC0402FR074R7L/C137962">C137962</a></td>
                     <td>YAGEO</td>
-                    <td>Thick Film Resistor SMD 10Ω 1/10W ±1% 0603</td>
+                    <td>Thick Film Resistor SMD 4.7Ω 62.5mW ±1% 0402</td>
                 </tr>
             </table>
             These selected parts are listed in <a href="bom.xls">bom.xls</a>.<br>
