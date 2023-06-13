@@ -55,7 +55,6 @@
                         <li>Offset: 50 μV (maximum)</li>
                     </ul>
                 </li>
-                <li>Power-supply operation: 2.7 V to 5.5 V</li>
             </ul>
             Note: The I<sup>2</sup>C address of this product is selectable from 16 addresses by the short lands on the board.
         <p>
@@ -113,8 +112,8 @@
         </p>
     <h2>Contact</h2>
         <p>
-            If you have any questions, please contact the designer of this product, Masato Kubodera, by <a href="mailto:masatokubotera06@yahoo.co.jp">e-mail</a>.<br>
-            E-mail: <a href="mailto:masatokubotera06@yahoo.co.jp">masato.kubotera@sustaina-op.com </a>
+            If you have any questions, please contact the designer of this product, Masato Kubodera, by <a href="mailto:masato.kubotera@sustaina-op.com">e-mail</a>.<br>
+            E-mail: <a href="mailto:masato.kubotera@sustaina-op.com">masato.kubotera@sustaina-op.com</a>
         </p>
     <h2>License Information</h2>
         <p>
