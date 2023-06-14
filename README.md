@@ -14,6 +14,18 @@
         </p>
 	<h2>Features Rev. 2</h2>
         <p>
+            <table>
+                <tr>
+                    <th>Top Surface of PCB</th>
+                    <th>Bottom Surface of PCB</th>
+                    <th>Assembled Electronic Components</th>
+                </tr>
+                <tr>
+                    <td><img src="./images/brd_top.png" width="160px"></td>
+                    <td><img src="./images/brd_bottom.png" width="160px"></td>
+                    <td><img src="" width="160px"></td>
+                </tr>
+            </table>
         </p>
     <h3>PCB</h3>
         <p>
