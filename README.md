@@ -10,7 +10,16 @@
     <p><strong>This product is currently under development!</strong></p>
 	<h1>Power Monitor Module</h1>
         <p>
-            This product is a high-side sensing current/voltage monitor module. The sensing voltage is 0~36V and the current is ±20A. The operating voltage is 2.7~5.5V, and these values are available via I<sup>2</sup>C I/F. The slave address is selectable on the board, and up to 16 modules in total are connected.
+            This product is a high-side sensing current/voltage monitor module. The sensing voltage is 0~36V and the current is ±20A. The operating voltage is 2.7~5.5V, and these values are available via I<sup>2</sup>C I/F. The slave address is selectable on the board, and up to 16 modules in total are connected.<br>
+            <br>
+            This product has been verified to be able to acquire current and voltage values using the following Arduino library.
+            <ul>
+                <li><a href="https://github.com/asukiaaa/INA226_asukiaaa">asukiaaa/INA226_asukiaaa</a></li>
+            </ul>
+            SUSTAINA-OP<sup>TM</sup> connects to Jetson Xavier NX through a carrier board and obtains values using the following library.
+            <ul>
+                <li><a href="https://github.com/hiroki-0001/INA226_Library">hiroki-0001/INA226_Library</a></li>
+            </ul>
         </p>
 	<h2>Features Rev. 2</h2>
         <p>
