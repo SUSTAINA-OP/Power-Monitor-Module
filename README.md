@@ -32,7 +32,7 @@
                 <tr>
                     <td><img src="./images/brd_top.png" width="160px"></td>
                     <td><img src="./images/brd_bottom.png" width="160px"></td>
-                    <td><img src="" width="160px"></td>
+                    <td><img src="https://github.com/SUSTAINA-OP/Power-Monitor-Module/assets/53966390/88e5ba5f-978a-4b5f-a211-124d2f5f77b1" width="160px"></td>
                 </tr>
             </table>
         </p>
